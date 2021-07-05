@@ -1,7 +1,6 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAYHISGHKNQBUTSSHT"
-    secret_key = "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"
+   
 }
 resource "aws_iam_user" "demo1" {
   name          = "demo1"
